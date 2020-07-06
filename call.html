@@ -6,8 +6,8 @@
 	
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	
-<script src="javascript/call.js"></script>
-<link rel="stylesheet" type="text/css" href="css/call.css">
+<script src="javascript/call.js"></script><!--jslink-->
+<link rel="stylesheet" type="text/css" href="css/call.css"><!--csslink-->
 	
 </head>
 	
@@ -55,22 +55,22 @@
 		<img src="images/4/13.jpg" width="38" height="42" alt="">
 	</div>
 	<div id="id14">
-		<p font align="center" style="line-height:10px"><font face="华文行楷"  size="6" >
+		<p  align="center" style="line-height:10px"><font face="华文行楷"  size="6" >
 		<a  href="index.html" style="color:#ff802c" > 
 	  首页</a></font></p>
   </div>
 	<div id="id15">
-		<p font align="center" style="line-height:10px"><font face="华文行楷"  size="6" >
+		<p  align="center" style="line-height:10px"><font face="华文行楷"  size="6" >
 		<a  href="overview.html" style="color:#ff802c" > 	
 	  学校概述</a></font></p>
 	</div>
 	<div id="id16">
-		<p font align="center" style="line-height:10px"><font face="华文行楷"  size="6" >
+		<p  align="center" style="line-height:10px"><font face="华文行楷"  size="6" >
 		<a  href="product/study.html" style="color:#ff802c" > 
 			学风建设</a></font></p>
 	</div>
 	<div id="id17"> 
-		<p font align="center" style="line-height:10px"><font face="华文行楷"  size="6" >
+		<p  align="center" style="line-height:10px"><font face="华文行楷"  size="6" >
 		<a  href="call.html" style="color:#FF0000" > 	
 	  *联系我们* </a></font></p>
 	</div>
@@ -90,10 +90,10 @@
 		<img src="images/4/22.jpg" width="3" height="1" alt="">
 	</div>
 	<div id="id23">
-		<p font align="center" style="line-height:56px"><font face="华文行楷"  size="6" color="ffffff">联系信息</font></p>
+		<p  align="center" style="line-height:56px"><font face="华文行楷"  size="6" color="ffffff">联系信息</font></p>
 	</div>
 	<div id="id24">
-		<p font align="center" style="line-height:56px"><font face="黑体"  size="5" color="ffffff">我们非常重视您的建议。在任何时候，可以通过提交表单反馈给我们。</font></p>
+		<p  align="center" style="line-height:56px"><font face="黑体"  size="5" color="ffffff">我们非常重视您的建议。在任何时候，可以通过提交表单反馈给我们。</font></p>
 	</div>
 	<div id="id25">
 		<img src="images/4/25.jpg" width="1" height="1" alt="">
@@ -115,11 +115,11 @@
 	</div>
 	<div id="id31">
 		<br><br><br><br>
-		<p font align="center" style="line-height:15px"><font face="黑体"  size="5" color="FFFFFF">学校地址：上海市浦东新区沪城环路1111号</font></p><br>
-		<p font align="center" style="line-height:15px"><font face="黑体"  size="5" color="FFFFFF">邮编：201306</font></p><br>
-		<p font align="center" style="line-height:15px"><font face="黑体"  size="5" color="FFFFFF">电子邮箱：SJQU@gench.edu.cn</font></p><br>
-		<p font align="center" style="line-height:15px"><font face="黑体"  size="5" color="FFFFFF">电话：021-58137788（学校办公室）</font></p><br>
-		<p font align="center" style="line-height:15px"><font face="黑体"  size="5" color="FFFFFF">&#12288;&#12288;&#12288;021-58137880（招生办公室）</font></p>
+		<p  align="center" style="line-height:15px"><font face="黑体"  size="5" color="FFFFFF">学校地址：上海市浦东新区沪城环路1111号</font></p><br>
+		<p  align="center" style="line-height:15px"><font face="黑体"  size="5" color="FFFFFF">邮编：201306</font></p><br>
+		<p  align="center" style="line-height:15px"><font face="黑体"  size="5" color="FFFFFF">电子邮箱：SJQU@gench.edu.cn</font></p><br>
+		<p  align="center" style="line-height:15px"><font face="黑体"  size="5" color="FFFFFF">电话：021-58137788（学校办公室）</font></p><br>
+		<p  align="center" style="line-height:15px"><font face="黑体"  size="5" color="FFFFFF">&#12288;&#12288;&#12288;021-58137880（招生办公室）</font></p>
 		<br>
 		
 	
@@ -127,30 +127,38 @@
   </div>
 	<div id="id32">
 		<span><p  ><strong>&#12288;输入以下信息提交信息</strong></p></span>
-	<form name="myForm" action="demo-form" onsubmit="return checkinput();" method="post">
-	&#12288;用户名:
-	<br>
-	&#12288;<input type="text" name="sname" >
-	<br>	
-	&#12288;密码:
-	<br>
-	&#12288;<input  id="log" type="password" name="password">
+	<form   action="call.html" onsubmit="return checkin();" method="post">
+	
+		<tr>
+    <td class="left">姓名:</td>
+    <td>
+        <input type="text" id="log1" placeholder="请输入5至10位字母或数字" />
+    </td>
+</tr><br><br>
+<tr>
+    <td class="left">密码:</td>
+    <td>
+        <input type="password" id="log2" placeholder="请输入5至10位字母或数字" />
+    </td>
+</tr>	
 	<br><br>
-	&#12288;建议内容:
-	<br><br>
-	&#12288;<input  type="text" >
-	<br><br>
-	&#12288;性别:
-	&#12288;<select id="select">
+<tr>
+	<td class="left">建议内容:</td>
+	<td>
+	<input  type="text"	id="log3" placeholder="请输入建议内容"  ><br>
+	</td>	
+</tr><br><br>
+	性别:
+	<select id="select">
 	
   	<option value="男">男</option>
-  	<option value="女">女</option>
+  	<option value="女">女</option><!--javascript选择-->
 	</select>
 	<br><br>
-&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;<input type="submit" onclik="checkinput()" value="提交">
+&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;<input type="submit"  value="提交">
 </form> 
 	<br><br>
-	<p font align="left" style="line-height:10px"><font face="黑体"  size="5" >
+	<p  align="left" style="line-height:10px"><font face="黑体"  size="5" >
 		<a  href="index.html" style="color:#FFFFFF" > 
 	  &#12288;返回首页</a></font></p>
 	</div>
@@ -171,7 +179,7 @@
 		<img src="images/4/37.jpg" width="143" height="55" alt="">
 	</div>
 	<div id="id38">
-		<p font align="center" style="line-height:25px"><font face="华文行楷"  size="6" >
+		<p  align="center" style="line-height:25px"><font face="华文行楷"  size="6" >
 		<a  href="https://www.gench.edu.cn/" style="color:#F7F7F7" > 
 	  友情链接</a></font></p>
 	</div>
@@ -179,13 +187,14 @@
 		<img src="images/4/39.jpg" width="453" height="1" alt="">
 	</div>
 	<div id="id40">
-		<p font align="right" style="line-height:25px"><font   size="3" >版权信息 &#12288;&#12288;©2020陈书剑1820495&#12288;</font></p>
+		<p  align="right" style="line-height:25px;font-size:20px;">版权信息 &#12288;&#12288;©2020陈书剑1820495&#12288;
+	</p><!--copyright-->
 	</div>
 	<div id="id41">
 		<img src="images/4/41.jpg" width="146" height="55" alt="">
 	</div>
 	<div id="id42">
-		<p font align="center" style="line-height:25px"><font face="华文行楷"  size="6" >
+		<p  align="center" style="line-height:25px"><font face="华文行楷"  size="6" >
 		<a  href="https://www.kcg.edu/" style="color:#F7F7F7" > 
 	  中日合作办学</a></font></p>
 	</div>
